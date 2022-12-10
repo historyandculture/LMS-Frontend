@@ -7,9 +7,9 @@ import App from './src/App'
 
 const Index: FunctionComponent = () => {
   return (
-    <Provider store={store}>
-      <App></App>
-    </Provider>
+    // <Provider store={store}>
+    <App />
+    // </Provider>
   )
 }
 
